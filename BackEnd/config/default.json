@@ -1,0 +1,11 @@
+{
+    "http_port": 8083,
+    "mongo": {
+        "mongoUrl": "mongodb://localhost:27017/nghiadinh",
+        "connectionLimit": 10,
+        "retryCount": 5,
+        "reconnectInterval": 500,
+        "db": "nghiadinh",
+        "posts": "post"
+    }
+}
