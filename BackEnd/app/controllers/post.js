@@ -50,8 +50,58 @@ async function getAllPosts() {
     return posts;
 }
 
+async function insertData() {
+    var data = [
+        {
+            title: 'demo title 1',
+            description: 'desc 1'
+        },
+        {
+            title: 'demo title 2',
+            description: 'desc 2'
+        },
+        {
+            title: 'demo title 3',
+            description: 'desc 3'
+        },
+        {
+            title: 'demo title 4',
+            description: 'desc 4'
+        },
+        {
+            title: 'demo title 5',
+            description: 'desc 5'
+        },
+        {
+            title: 'demo title 6',
+            description: 'desc 6'
+        },
+        {
+            title: 'demo title 7',
+            description: 'desc 7'
+        },
+        {
+            title: 'demo title 8',
+            description: 'desc 8'
+        },
+        {
+            title: 'demo title 9',
+            description: 'desc 9'
+        }
+    ];
+    // Post.insert(data, (err, result) => {
+    //     if (err) {
+    //         return console.error(err);
+    //     } else {
+    //         console.log("Multiple documents inserted to Collection");
+    //     }
+    // });
+}
+
+
 module.exports = {
     createPost,
     deletePost,
-    getAllPosts
+    getAllPosts,
+    insertData
 };
