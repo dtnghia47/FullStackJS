@@ -16,6 +16,7 @@ class PostItem extends Component<PropsType> {
     return (
       <div className="demo">
         {data.title}
+        <span>{data.description}</span>
       </div>
     )
   }

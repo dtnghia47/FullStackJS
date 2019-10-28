@@ -1,7 +1,8 @@
+// import React from 'react'
 // import { shallow } from "enzyme";
-import renderer from 'react-test-renderer';
+// import renderer from 'react-test-renderer';
 
-import PostItem from "../src/components/PostItem";
+// import PostItem from "../src/components/PostItem";
 
 describe('My first test suite', () => {
   it('adds two numbers', () => {
@@ -15,10 +16,8 @@ describe('My first test suite', () => {
 
 
 // snapshot test
-it('renders correctly', () => {
-  const data = { id: 1, title: 'title', desctiption: 'desc' }
-  const tree = renderer
-    .create(<PostItem data={data} />)
-    .toJSON();
-  expect(tree).toMatchSnapshot();
-});
+// it('renders correctly', () => {
+//   const data = { id: 1, title: 'title', desctiption: 'desc' }
+//   const tree = renderer.create(<PostItem data={data} />).toJSON();
+//   expect(tree).toMatchSnapshot();
+// });
