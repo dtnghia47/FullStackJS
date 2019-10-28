@@ -6,15 +6,15 @@ export interface DataProps {
   description?: string
 }
 
-export interface Demo {
+export interface PropsType {
   data: DataProps
 }
 
-class PostItem extends Component<Demo> {
+class PostItem extends Component<PropsType> {
   render() {
     const { data } = this.props
     return (
-      <div>
+      <div className="demo">
         {data.title}
       </div>
     )
